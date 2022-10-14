@@ -15,27 +15,33 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <style>
-      .circle-img {
-        width: 60%;
-        border-radius: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        padding: 0.6em;
-        margin-bottom: 1em;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand p-0" href="index.html">
-            <img src="logo.png" alt="не вёзет" width="100" />
+            <img src="img/logo.png" alt="не вёзет" width="100" />
           </a>
           <button
             class="navbar-toggler"
@@ -58,6 +64,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="Jim Hawkins.html">Джим Хокинс</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="table.html">Таблица</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -69,14 +78,17 @@
           <div class="col-lg-6 col-md-8 mx-auto">
             <img
               class="circle-img"
-              src="/Doktor-Livsi-iz-Ostrova-sokrovishh-1.png"
+              src="img/Doktor-Livsi-iz-Ostrova-sokrovishh-1.png"
               alt="не везет"
             />
             <h1 class="fw-light">Доктор Ливси</h1>
-            <p class="lead text-muted">
+            <p class="bigaqua">
               Джентльмен, врач и судья, человек поразительной храбрости, готовый
               без колебания исполнить свой профессиональный и человеческий долг.
-              Только Ливси смог приучить к порядку бывшего пирата Билли Бонса.
+              <span class="bigaqua"
+                >Только Ливси смог приучить к порядку бывшего пирата Билли
+                Бонса.</span
+              >
               Холостяк. Доктор носит парик и часто клянётся им же. Курит трубку.
             </p>
             <a
@@ -117,7 +129,16 @@
         ⢕⢕⠅⢓⣕⣕⣕⣕⣵⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣷⣕⢕⢕⢕⢕⡵⢀⢕⢕
         ⢑⢕⠃⡈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢃⢕⢕⢕
       </pre>
-      <code> function myFn(a, b) { let c a = a + 1 c = a + b return c } </code>
+      <pre>
+        <code> function myFn(a, b) 
+          {
+             let c 
+             a = a + 1 
+             c = a + b 
+             return c 
+            } 
+          </code>
+      </pre>
     </footer>
   </body>
 </html>
